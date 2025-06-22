@@ -1,12 +1,8 @@
 import argparse
 import numpy as np
-import random
 import networkx as nx
-import seaborn as sns
 import matplotlib.pyplot as plt
-import pandas as pd
 import geopandas as gpd
-from tqdm import tqdm
 from shapely.geometry import LineString
 
 from simulation_class import TrafficSimulation
