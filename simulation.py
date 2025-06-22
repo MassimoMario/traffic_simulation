@@ -146,7 +146,7 @@ def main():
     x = np.linspace(0,np.max(node_passage)-1,np.max(node_passage))
 
     mean = np.sum(x * y_norm)
-    dev_std = np.sqrt(np.sum(((x - media)**2) * y_norm))
+    dev_std = np.sqrt(np.sum(((x - mean)**2) * y_norm))
 
     plt.scatter(x, p_i, s=10)
     plt.plot(x, p_i)
