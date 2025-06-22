@@ -13,7 +13,6 @@ git clone https://github.com/MassimoMario/traffic_simulation.git
 This project requires **Python &ge; 3.8** and the following libraries:
 - `numpy`
 - `matplotlib`
-- `ipython`
 - `tqdm`
 - `networkx`
 - `geopandas`
