@@ -1,5 +1,5 @@
 # Random walk traffic simulation 🌇🚗🚙
-Python implementation of a traffic simulation using a random walk over a graph. Scripts in this repository allow to perform a simulation with two dynamics: synchronous and asynchronous dynamics.
+Python implementation of a traffic simulation using a random walk over a graph. Scripts in this repository allow to perform a simulation with two dynamics: synchronous and asynchronous dynamics. A more detailed description of the simulation and those two dynamics can be found in the pdf [`Arise of congestion`](Arise_of_congestion_Mario_Massimo).
 
 
 # Installation
@@ -50,4 +50,5 @@ The repository contains the following folders and files:
 - [`simulation.py`](simulation.py) is the main script for simulating and plotting the results
 - [`simulation_class.py`](simulation_class.py) is the script containing the simulation class definition
 - [`requirements.txt`](requirements.txt) txt file containing the required libraries to run the simulation
+- [`Arise of congestion`](Arise_of_congestion_Mario_Massimo) is a pdf report of the use of such simulation on the Bologna urban network.
 
